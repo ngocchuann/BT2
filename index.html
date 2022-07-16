@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Bai tap 5 -->
+    <div class=" container ">
+        <p class="theme">Tính Ngày Tháng Năm</p>
+      </div>
+      <div class="container w-50 py-5">
+        <div class="right-item py-4 pl-5">
+            <div class="item-1">
+                <form>
+                    <input type="number" id="day" min="1" placeholder="Nhập Ngày" />
+                    <input type="number" id="month" min="1" placeholder="Nhập Tháng" />
+                    <input type="number" id="year" min="1" placeholder="Nhập Năm" />
+                    <br />
+                    <button type="button" id="prevday" class="mt-4 mr-5 btn btn-success">Ngày Hôm Qua</button>
+                    <button type="button" id="nextday" class="mt-4 btn btn-success">Ngày Mai</button>
+                </form>
+                <p id="txtResultbai5" class="mt-4 text"><i class="alert alert-info"></i></p>
+            </div>
+
+        </div>
+    </div>
+<!-- Bai tap 6 -->
+<div class=" container ">
+    <p class="theme">Tính Ngày</p>
+  </div>
+<div class="container w-50 py-5">
+    <form class="row gy-3 px-2 mt-5">
+
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="nhapthang" placeholder="Nhập Tháng">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="nhapnam" placeholder="Nhập Năm">
+        </div>
+        <div class="col-12 ">
+            <button class="btn btn-success mt-3 mr-5 me-2 mb-2" type="button" id="btnTinh">
+                Tính Ngày
+            </button>
+        </div>
+        <div class="col-12 ">
+            <div class="alert alert-primary">
+                <span id="txtResultbai6" class="mt-3 text">&#8205</span>
+            </div>
+        </div>
+
+    </form>
+</div>
+<!-- Bai 7 -->
+<div class=" container ">
+    <p class="theme">Đọc số có 3 chữ số</p>
+</div>
+<div class="container w-50 py-5">
+    <form class="row gy-3 px-2 mt-5">
+        
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="nhap" placeholder="Nhập số 3 chữ số">
+        </div>
+        <div class="col-12 col-lg-2">
+            <button class="btn btn-success me-1 mb-1" type="button" id="btnDoc">
+                Đọc Số
+            </button>
+        </div>
+        <div class="col-12 mt-3 mr-5 me-2 mb-2">
+            <div class="alert alert-primary">
+                <span id="txtResultbai7">&#8205</span>
+            </div>
+        </div>
+
+
+    </form>
+</div>
+<!-- Bai tap 8 -->
+<div class=" container ">
+    <p class="theme">Tìm sinh viên xa trường nhất</p>
+</div>
+<div class="container w-50 py-5">
+    <form class="row gy-3 px-2 mt-5">
+       
+        <div class="col-12">
+            <h5>Sinh Viên 1</h5>
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="text" class="form-control" id="sv1" placeholder="Nhập tên">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoX1" placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoY1" placeholder="Nhập tọa độ y">
+        </div>
+        <div class="col-12">
+            <h5>Sinh Viên 2</h5>
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="text" class="form-control" id="sv2" placeholder="Nhập tên">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoX2" placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoY2" placeholder="Nhập tọa độ y">
+        </div>
+        <div class="col-12">
+            <h5>Sinh Viên 3</h5>
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="text" class="form-control" id="sv3" placeholder="Nhập tên">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoX3" placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoY3" placeholder="Nhập tọa độ y">
+        </div>
+        <div class="col-12">
+            <h5>Trường học</h5>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control" id="toadoX4" placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control me-2 mb-2" id="toadoY4" placeholder="Nhập tọa độ y">
+        </div>
+        <div class="col-12 ">
+            <button class="btn btn-success me-2 mb-2" type="button" id="btntim">
+                Tìm
+            </button>
+        </div>
+        <div class="col-12">
+            <div class="alert alert-primary me-2 mb-2">
+                <span id="txttim">&#8205</span>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
